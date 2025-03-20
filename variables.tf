@@ -85,12 +85,5 @@ variable "identity_type" {
   default     = ""
 }
 
-variable "key_vault_id" {
-  description = "Azure Key Vault ID"
-  type        = string
-}
 
-variable "storage_account_id" {
-  description = "Storage Account ID"
-  type        = string
-}
+
